@@ -135,7 +135,6 @@ Ingrese el número del método deseado: """))
         start_y_width = float(input("Ingrese la coordenada y de inicio para el ancho: "))
         end_y_width = float(input("Ingrese la coordenada y de final para el ancho: "))
 
-        # Coordenadas de inicio y final para el largo
         start_x_height = float(input("Ingrese la coordenada x de inicio para el largo: "))
         end_x_height = float(input("Ingrese la coordenada x de final para el largo: "))
         start_y_height = float(input("Ingrese la coordenada y de inicio para el largo: "))
