@@ -162,7 +162,7 @@ Ingrese el número del método deseado: """))
 Rctngl = Rectangle(width, height, center_point)
 print("El área del rectángulo es ", Rctngl.compute_area(), "y el perímetro del rectángulo es", Rctngl.compute_perimeter())
 
-Sqr = Square(edge = width or height, center_point = Point(center_point_x, center_point_y))     #Importante especificar a qué equivale cada valor
+Sqr = Square(edge = width or height, center_point = Point(center_point_x, center_point_y))
 print("El área del cuadrado es ", Sqr.compute_area(), "y el perímetro es", Sqr.compute_perimeter())
 
 horizontal_coord = int(input("Ingrese coordenada x de un punto: "))
