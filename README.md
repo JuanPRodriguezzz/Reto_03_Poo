@@ -128,11 +128,8 @@ Ingrese el número del método deseado: """))
         opposite_corner_x = float(input("\nIngrese componente x del vertice opuesto: "))
         opposite_corner_y = float(input("\nIngrese componente y del vertice opuesto: "))
 
-        vertice1 = Point(corner1_x,corner1_y)
-        vertice_op = Point(opposite_corner_x,opposite_corner_y)
-
-        height = abs(corner1_x-opposite_corner_x)
-        width = abs(opposite_corner_y-opposite_corner_x)
+        width = abs(corner1_x-opposite_corner_x)
+        height = abs(opposite_corner_y-corner1_y)
 
         center_point_x = height - (width/2)
         center_point_y = width - (height/2)
@@ -156,7 +153,7 @@ Ingrese el número del método deseado: """))
 
        
         width = horizontal_line.compute_length()
-        largo = vertical_line.compute_length()
+        height = vertical_line.compute_length()
 
         center_point_x = (start_x_width + end_x_width) / 2
         center_point_y = (start_y_width + end_y_width) / 2
